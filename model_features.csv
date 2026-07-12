@@ -1,0 +1,50 @@
+position,feature,family,description
+1,logon_count,logon activity,Logon count
+2,logon_offhours,logon activity,Logon offhours
+3,logon_first_hour,logon activity,Logon first hour
+4,logon_last_hour,logon activity,Logon last hour
+5,device_connects,device activity,Device connects
+6,device_offhours,device activity,Device offhours
+7,file_count,file activity,File count
+8,file_unique,file activity,File unique
+9,file_offhours,file activity,File offhours
+10,file_exe,file activity,File exe
+11,file_to_removable,file activity,File to removable
+12,file_ext_doc,file activity,Count of .doc file events
+13,file_ext_docx,file activity,Count of .docx file events
+14,file_ext_pdf,file activity,Count of .pdf file events
+15,file_ext_zip,file activity,Count of .zip file events
+16,file_ext_jpg,file activity,Count of .jpg file events
+17,file_ext_txt,file activity,Count of .txt file events
+18,file_ext_csv,file activity,Count of .csv file events
+19,email_count,email activity,Email count
+20,email_external,email activity,Email external
+21,email_attachments,email activity,Email attachments
+22,email_attach_bytes,email activity,Email attach bytes
+23,http_count,web activity,Http count
+24,http_offhours,web activity,Http offhours
+25,http_job_sites,web activity,Http job sites
+26,http_leak_sites,web activity,Http leak sites
+27,http_malware_sites,web activity,Http malware sites
+28,http_cloud_upload,web activity,Http cloud upload
+29,file_count_z,personal deviation,Trailing z-score of file_count against the user's prior activity
+30,file_offhours_z,personal deviation,Trailing z-score of file_offhours against the user's prior activity
+31,file_exe_z,personal deviation,Trailing z-score of file_exe against the user's prior activity
+32,file_to_removable_z,personal deviation,Trailing z-score of file_to_removable against the user's prior activity
+33,device_connects_z,personal deviation,Trailing z-score of device_connects against the user's prior activity
+34,device_offhours_z,personal deviation,Trailing z-score of device_offhours against the user's prior activity
+35,logon_offhours_z,personal deviation,Trailing z-score of logon_offhours against the user's prior activity
+36,http_count_z,personal deviation,Trailing z-score of http_count against the user's prior activity
+37,email_external_z,personal deviation,Trailing z-score of email_external against the user's prior activity
+38,email_attach_bytes_z,personal deviation,Trailing z-score of email_attach_bytes against the user's prior activity
+39,logon_offhours_dt_z,day-type deviation,Trailing z-score of logon_offhours for the same weekday/weekend type
+40,device_offhours_dt_z,day-type deviation,Trailing z-score of device_offhours for the same weekday/weekend type
+41,file_offhours_dt_z,day-type deviation,Trailing z-score of file_offhours for the same weekday/weekend type
+42,file_count_dt_z,day-type deviation,Trailing z-score of file_count for the same weekday/weekend type
+43,device_connects_dt_z,day-type deviation,Trailing z-score of device_connects for the same weekday/weekend type
+44,http_count_dt_z,day-type deviation,Trailing z-score of http_count for the same weekday/weekend type
+45,o,psychometric,Openness psychometric score
+46,c,psychometric,Conscientiousness psychometric score
+47,e,psychometric,Extraversion psychometric score
+48,a,psychometric,Agreeableness psychometric score
+49,n,psychometric,Neuroticism psychometric score
